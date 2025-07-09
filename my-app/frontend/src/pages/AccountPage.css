@@ -1,0 +1,98 @@
+.account-wrapper {
+  max-width: 480px;
+  margin: auto;
+  padding: 16px;
+  background-color: #182493; 
+  color: white;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.account-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.account-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+  border: 2px solid #fff;
+}
+
+.account-info h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.account-info .text-warning {
+  font-size: 13px;
+}
+
+.account-info .text-light {
+  font-size: 12px;
+}
+
+
+.vip-badge {
+  font-size: 12px;
+  background: #888;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin-left: 6px;
+}
+
+.balance-card {
+  background-color: #1a1e58;
+  border: none;
+  border-radius: 16px;
+  padding: 12px;
+}
+
+.balance-card h4 {
+  font-weight: bold;
+}
+
+.option-card {
+  background-color: #202663;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.notification-card {
+  background-color: #1f2459;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 12px;
+  margin-bottom: 60px;
+}
+
+.card {
+  background-color: #1f2459;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.card .row div {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+@media (max-width: 480px) {
+  .account-info h5 {
+    font-size: 14px;
+  }
+}

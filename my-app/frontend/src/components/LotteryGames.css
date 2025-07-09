@@ -1,0 +1,48 @@
+.lottery-wrapper {
+  display: flex;
+  justify-content: center;
+  
+}
+.lottery-container {
+  max-width: 480px;
+  width: 100%;
+  padding: 0 12px;
+   background-color: #11195d;
+}
+
+.lottery-card {
+  background: linear-gradient(110deg, #3041ae, #6773b6);
+  border-radius: 12px;
+  padding: 18px 12px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    display: flex;
+      align-items: center;   
+}
+
+.lottery-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+
+.lottery-img {
+  height: 120px;
+  width: 130px;
+  object-fit: contain;
+  display: block;
+}
+
+
+.lottery-btn {
+  border: 1px solid #fff;
+  border-radius: 24px;
+  padding: 2px 16px;
+  font-size: 14px;
+}

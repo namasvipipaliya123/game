@@ -1,0 +1,229 @@
+/* Root container */
+.k3-container {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #0b1240;
+  padding: 12px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.k3-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.tiranga-logo {
+  height: 28px;
+}
+
+/* Wallet box */
+.wallet-box {
+  background: #1d2767;
+  border-radius: 14px;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.wallet-box h4 {
+  font-size: 22px;
+  margin: 0;
+}
+.wallet-box p {
+  font-size: 13px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+.wallet-box .btn {
+  width: 120px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+}
+.wallet-box .btn-danger {
+  background-color: #ff4444;
+  border: none;
+}
+.wallet-box .btn-success {
+  background-color: #00c27c;
+  border: none;
+}
+
+/* Tab buttons */
+.k3-tab-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 15px 0;
+}
+.k3-tab-btn {
+  flex: 1;
+  background: #2c3671;
+  border-radius: 14px;
+  text-align: center;
+  padding: 8px 6px;
+  font-size: 13px;
+  color: #ccc;
+  border: 2px solid transparent;
+  user-select: none;
+}
+.k3-tab-btn img.clock-icon {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 4px;
+}
+.k3-tab-btn.active {
+  background: linear-gradient(to bottom, #53a9ff, #1a6cfb);
+  color: white;
+  border-color: #1a6cfb;
+}
+.tab-label {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Game card */
+.game-card {
+  background-color: #1d2767;
+  border-radius: 16px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* Timer and period */
+.period {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 4px;
+}
+.timer {
+  font-size: 16px;
+  font-weight: bold;
+  color: #00ffcc;
+  margin-bottom: 12px;
+}
+
+/* Dice images */
+.dice-display {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  background: #0b1240;
+  border: 3px solid #4e5ed6;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+.dice-img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Options: Total, 2 same, etc. */
+.k3-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.k3-option-btn {
+  flex: 1;
+  background-color: #2844c3;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  border-right: 1px solid #3a5deb;
+}
+.k3-option-btn:first-child {
+  background-color: #488bff;
+}
+.k3-option-btn:last-child {
+  border-right: none;
+}
+
+/* Ball list — 4 per row */
+.k3-ball-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.k3-ball {
+  width: calc(30% - 40px);
+  text-align: center;
+}
+.ball-image-wrapper {
+  position: relative;
+  width: 100%;
+}
+.ball-image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+.ball-number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 30px;
+}
+.red-text {
+  color: #ff4d4d;
+}
+.green-text {
+  color: #00e676;
+}
+.multiplier {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 5px;
+}
+
+/* Bottom buttons (1 row) */
+.k3-bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 10px;
+}
+.k3-bottom-buttons .btn {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  border-radius: 12px;
+  line-height: 1.2;
+  border: none;
+}
+.k3-bottom-buttons .btn span {
+  font-size: 11px;
+  display: block;
+}
+.k3-bottom-buttons .small {
+  background-color: #4da6ff;
+}
+.k3-bottom-buttons .big {
+  background-color: #ffa500;
+}
+.k3-bottom-buttons .even {
+  background-color: #00c27c;
+}
+.k3-bottom-buttons .odd {
+  background-color: #f44336;
+}
+
+/* Disable hover/click visual effects */
+.k3-tab-btn,
+.k3-option-btn,
+.k3-ball,
+.k3-bottom-buttons .btn {
+  cursor: default;
+  transition: none;
+}

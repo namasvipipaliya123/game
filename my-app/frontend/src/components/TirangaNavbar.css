@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #9195a3; 
+  font-family: sans-serif;
+}
+.tiranga-navbar {
+  padding: 0;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+.tiranga-container {
+  max-width: 480px;
+  width: 100%;
+  background-color: #252d71; 
+  padding: 8px 12px;
+  border-radius: 0;
+}
+
+.tiranga-logo-img {
+  height: 34px;
+  object-fit: contain;
+}
+
+.tiranga-button {
+  background-color: #3c57b8;
+  border: none;
+  padding: 6px;
+  border-radius: 8px;
+  color: #a7d3f2;
+  font-size: 20px;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tiranga-button:hover {
+  background-color: #2f4698;
+  color: white;
+}

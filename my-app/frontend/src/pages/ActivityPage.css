@@ -1,0 +1,92 @@
+.activity-wrapper {
+  max-width: 480px;
+  margin: auto;
+  background-color: #191f55;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  padding-bottom: 70px;
+}
+
+.activity-subtext {
+  font-size: 0.85rem;
+  color: #cccccc;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.quick-actions {
+  background-color: #202866;
+  border-radius: 12px;
+}
+
+.activity-card {
+  border-radius: 12px;
+  padding: 15px 8px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity-icon-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.activity-text {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.activity-box {
+  border-radius: 12px;
+  padding: 10px;
+  color: white;
+  border: none;
+  font-size: 0.85rem;
+  height: 240px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner-wrapper img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.bonus-card {
+  width: 100%;
+  max-width: 480px;
+  background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.bonus-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bonus-label {
+  background-color: #232b80;
+  padding: 10px 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: left;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  color: white;
+}
+

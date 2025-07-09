@@ -1,0 +1,48 @@
+
+.fixed-480-wrapper {
+  max-width: 480px;
+  background-color: #11195d; 
+  margin: auto;
+  padding: 1rem;
+}
+
+
+.footer-section {
+  background-color: #252d71;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  padding: 1rem; 
+  border-radius: 12px;
+  margin: 1rem 0; 
+}
+.footer-logo {
+  height: 36px;
+}
+.age-box {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 50%;
+}
+
+.footer-logo-box {
+  background-color: white;
+  border-radius: 8px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.footer-text p {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.footer-text .warning {
+  color: #ff5555;
+  font-weight: bold;
+}

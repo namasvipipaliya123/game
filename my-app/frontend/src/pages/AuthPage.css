@@ -1,0 +1,41 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-box {
+  background-color: #162447;
+  color: #ffffff;
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+}
+
+.auth-box h4 {
+  font-weight: 600;
+}
+
+.auth-box small {
+  font-size: 0.85rem;
+  color: #cccccc;
+}
+
+.btn-link {
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  color: #0dcaf0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  color: #14f4ff;
+  text-decoration: none;
+}

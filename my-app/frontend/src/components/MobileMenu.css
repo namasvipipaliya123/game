@@ -1,0 +1,40 @@
+.menu-wrapper {
+  max-width: 480px;
+  margin: auto;
+  background-color: #1f2b63;
+  padding: 10px;
+}
+
+.menu-list .list-group-item {
+  background-color: transparent;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 12px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  justify-content: space-between;
+}
+
+.menu-list .list-group-item:last-child {
+  border-bottom: none;
+}
+
+.menu-icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu-text {
+  flex-grow: 1;
+}
+
+.arrow-icon {
+  font-size: 1rem;
+  color: #ccc;
+}

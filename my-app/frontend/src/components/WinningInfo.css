@@ -1,0 +1,64 @@
+.fixed-480-wrapper {
+  max-width: 480px;
+  margin: auto;
+}
+
+.winning-wrapper {
+  padding: 16px;
+  color: white;
+}
+
+.winning-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  padding-left: 6px;
+  border-left: 4px solid #00aaff;
+}
+
+.winning-card {
+  background-color: #16245c;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: white;
+}
+
+.lotto-badge {
+  width: 42px;
+  height: 42px;
+  background: linear-gradient(to bottom, #00c6ff, #0072ff);
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lotto-img {
+  width: 60px;
+  height: 60px;
+}
+
+
+.receive-amount {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.subtext {
+  font-size: 0.75rem;
+  color: #bbb;
+}

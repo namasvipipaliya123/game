@@ -1,0 +1,24 @@
+.fixed-480-wrapper {
+  max-width: 480px;
+  margin: auto;
+}
+
+.sports-section {
+  background-color: #11195d;
+}
+
+.sports-card {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.sports-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

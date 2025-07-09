@@ -1,0 +1,26 @@
+.fixed-480-wrapper {
+  max-width: 480px;
+  margin: auto;
+}
+
+.rummy-section {
+  background-color: #11195d;
+}
+.rummy-card {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 100%;  
+  height: 100%;    
+  aspect-ratio: 3 / 4;
+}
+
+.rummy-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+}

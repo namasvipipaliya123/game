@@ -1,0 +1,98 @@
+{
+  "language": "Language",
+  "english": "English",
+  "hindi": "Hindi",
+"announcment":"Announcment",
+  "customer_service": "24/7 Customer service",
+  "beginners_guide": "Beginner's Guide",
+  "about_us": "About us",
+  "download_app": "Download APP",
+
+  "bottomnav": {
+    "home": "Home",
+    "activity": "Activity",
+    "promotion": "Promotion",
+    "wallet": "Wallet",
+    "account": "Account"
+  },
+
+  "casino": {
+    "title": "Casino",
+    "all": "All",
+    "all_games": "All Games"
+  },
+
+  "fishing": {
+    "title": "Fishing",
+    "all_count": "All {{count}}",
+    "all_games": "All Games"
+  },
+
+  "footer": {
+    "fair_play": "The platform advocates fairness, justice, and openness. We mainly operate fair lottery, blockchain games, live casinos, and slot machine games.",
+    "verified_games": "Tiranga works with more than 10,000 online live game dealers and slot games, all of which are verified fair games.",
+    "fast_support": "Tiranga supports fast deposit and withdrawal, and looks forward to your visit.",
+    "gambling_warning": "Gambling can be addictive, please play rationally.",
+    "age_restriction": "Tiranga only accepts customers above the age of 18."
+  },
+
+  "categories": {
+    "popular": "Popular",
+    "lottery": "Lottery",
+    "casino": "Casino",
+    "slots": "Slots",
+    "sports": "Sports",
+    "rummy": "Rummy",
+    "fishing": "Fishing",
+    "original": "Original",
+    "all": "All"
+  },
+
+  "recommendation": {
+    "title": "Platform recommendation",
+    "odds": "odds of"
+  },
+
+  "leaderboard": {
+    "title": "Leaderboard"
+  },
+
+  "lottery": {
+    "title": "Lottery"
+  },
+
+  "rummy": {
+    "title": "Rummy",
+    "all_count": "All {{count}}",
+    "all_games": "All Games"
+  },
+
+  "slots": {
+    "title": "Slots",
+    "all_count": "All {{count}}",
+    "popular": "Popular"
+  },
+
+  "sports": {
+    "title": "Sports",
+    "all_count": "All {{count}}"
+  },
+
+  "navbar": {
+    "v": "v"
+  },
+
+  "vipBanner": {
+    "alert": "Please be sure to always use our official website for playing the games.",
+    "detail": "Detail"
+  },
+
+  "winning": {
+    "title": "Winning information",
+    "receive": "Receive",
+    "subtext": "Winning amount"
+  },
+  
+  "go": "Go",
+  "all": "All"
+}

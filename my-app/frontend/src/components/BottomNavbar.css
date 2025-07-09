@@ -1,0 +1,59 @@
+.fixed-480-wrapper {
+  max-width: 480px;
+  margin: auto;
+}
+
+.bottom-nav-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  background-color: #1726a9;
+}
+
+.nav-item {
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-item svg {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.nav-item.active {
+  color: #00aaff;
+}
+
+.center-icon {
+  position: relative;
+  margin-top: -30px;
+}
+
+.icon-circle {
+  background: linear-gradient(to bottom, #52b4fd, #3677fa);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 170, 255, 0.6);
+  color: white;
+}
+
+.center-icon span {
+  margin-top: 4px;
+  color: white;
+}

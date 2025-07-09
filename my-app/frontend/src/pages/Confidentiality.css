@@ -1,0 +1,68 @@
+.confidentiality-container {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #1c2563;
+  min-height: 100vh;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.confidentiality-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #1c2563;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.confidentiality-header .back,
+.confidentiality-header .placeholder {
+  width: 24px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.confidentiality-content {
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.content-block {
+  background-color: white;
+  color: #111;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.content-block h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.content-block h6 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.content-block p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+.content-block a {
+  color: #0645ad;
+  text-decoration: underline;
+}
+.content-block span{
+    font-weight: 800;
+}
